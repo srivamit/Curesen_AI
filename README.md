@@ -49,7 +49,7 @@ Curesen AI is an innovative health monitoring system that combines real-time sen
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/curesen-ai.git
+git clone https://github.com/srivamit/Curesen_AI
 ```
 
 2. Install dependencies
