@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Curesen AI - Your Med Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Curesen AI is an innovative health monitoring system that combines real-time sensor data from ESP32-C3 with advanced AI capabilities to provide comprehensive health insights and personalized medical guidance.
 
-## Available Scripts
+## 🌟 Key Features
 
-In the project directory, you can run:
+### Real-time Health Monitoring
+- Vital Signs Tracking : Monitor heart rate (BPM), blood oxygen levels (SpO2), and body temperature in real-time
+- Wireless Connectivity : Seamless integration with ESP32-C3 via WiFi for reliable data transmission
+- Responsive Dashboard : User-friendly interface displaying real-time health metrics
 
-### `npm start`
+### AI-Powered Health Analysis
+- Automated Health Reports : Generation of detailed health reports using Google's Generative AI
+- Smart Health Assessment : Analysis of vital signs to provide health insights
+- AI Doctor Chat : Interactive chat interface with an AI-powered medical assistant for immediate health guidance
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technical Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- Framework : React.js
+- Styling : Emotion (Styled Components)
+- State Management : React Context API
+- Routing : React Router
+- UI Components : Custom components with React Icons
 
-### `npm test`
+### Backend & Integration
+- Real-time Communication : WebSocket for ESP32-C3 data streaming
+- AI Integration : Google Generative AI for health analysis
+- Cross-Platform : Capacitor for mobile deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📱 Platform Support
 
-### `npm run build`
+### Web Application
+- Modern browsers (Chrome, Firefox, Safari, Edge)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mobile Apps
+- Android 5.0+ (Lollipop)
+- iOS 11.0+
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Android Studio (for Android development)
+- Xcode (for iOS development, macOS only)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/curesen-ai.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Mobile Development
 
-## Learn More
+#### Android
+```bash
+npx cap add android
+npm run build
+npx cap copy android
+npx cap open android
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### iOS
+```bash
+npx cap add ios
+npm run build
+npx cap copy ios
+npx cap open ios
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Configuration
 
-### Code Splitting
+### ESP32-C3 Connection
+1. Navigate to the IP Configuration section in the app
+2. Enter your ESP32-C3's IP address
+3. Save the configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📖 Usage
+1. Connect Device : Use the WiFi icon in the header to connect to your ESP32-C3 device
+2. Monitor Vitals : View real-time health metrics on the dashboard
+3. Generate Reports : Reports are automatically generated after 20 seconds of valid measurements
+4. AI Chat : Access the AI doctor chat for health-related queries and guidance
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Making a Progressive Web App
+## 🙏 Acknowledgments
+- ESP32-C3 for reliable sensor data transmission
+- Google Generative AI for powerful health analysis
+- React community for excellent development tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made By Amit Srivastav :octocat:
