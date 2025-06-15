@@ -93,9 +93,6 @@ npx cap open ios
 3. Generate Reports : Reports are automatically generated after 20 seconds of valid measurements
 4. AI Chat : Access the AI doctor chat for health-related queries and guidance
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
